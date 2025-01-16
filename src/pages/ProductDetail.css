@@ -1,0 +1,31 @@
+/* Container for the zoom effect */
+.image-zoom {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.product-image {
+  width: 100%;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for zoom */
+}
+
+/* When hovering over the image, it zooms in */
+.product-image.zoom:hover {
+  transform: scale(1.5); /* Zoom in the image */
+}
+
+/* ProductDetail.css */
+
+.product-image {
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+.image-zoom {
+  overflow: hidden;
+}

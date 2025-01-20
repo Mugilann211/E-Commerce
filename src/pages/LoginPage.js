@@ -12,7 +12,7 @@ const LoginPage = () => {
     e.preventDefault();
     
     // Here, you can add your authentication logic, for now it's mocked
-    if (email === "test@example.com" && password === "password123") {
+    if (email === "test@in.com" && password === "123") {
       login({ email });  // Mock user login (replace with real auth logic)
       navigate("/");  // Redirect to homepage or cart after successful login
     } else {

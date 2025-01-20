@@ -5,7 +5,8 @@ import ecommerceReducer from './slices/ecommerceSlice'; // Your existing ecommer
 const store = configureStore({
   reducer: {
     ecommerce: ecommerceReducer,
-    products: productReducer, // Add productReducer here
+    products: productReducer,
+     // Add productReducer here
   },
 });
 

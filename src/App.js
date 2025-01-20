@@ -13,6 +13,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Success from "./pages/Success";
 import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
+import "./App.css";
 
 function App() {
   return (
